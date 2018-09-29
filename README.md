@@ -71,7 +71,7 @@ Some of the functionality of these dotfiles depends on formulae installed by `br
 
 ### Save pass phrase in macOS keychain
 
-these are modified to exclude the .profile changes
+these are modified to update the .profile changes for later versions
 
 [Sign your commits on GitHub with GPG](https://medium.com/@timmywil/sign-your-commits-on-github-with-gpg-566f07762a43)
 [https://gist.github.com/bmhatfield/cc21ec0a3a2df963bffa3c1f884b676b](https://gist.github.com/bmhatfield/cc21ec0a3a2df963bffa3c1f884b676b)
