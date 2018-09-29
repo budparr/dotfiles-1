@@ -47,5 +47,3 @@ complete -W "NSGlobalDomain" defaults;
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
-# https://medium.com/@timmywil/sign-your-commits-on-github-with-gpg-566f07762a43
-# https://gist.github.com/bmhatfield/cc21ec0a3a2df963bffa3c1f884b676b
