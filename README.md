@@ -29,6 +29,8 @@ set -- -f; source bootstrap.sh
 
 ### Use VSCode settings
 
+Make a symlink between our files and VSCode's User settings
+
 _https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/_
 
 ln -s /Users/budparr/vscode/settings.json /Users/budparr/Library/Application\ Support/Code/User/settings.json
