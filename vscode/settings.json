@@ -1,0 +1,33 @@
+{
+  "editor.fontSize": 14,
+  "git.autofetch": true,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.colorTheme": "Atom One Dark",
+  "git.confirmSync": false,
+  "terminal.integrated.fontSize": 13,
+  "workbench.sideBar.location": "left",
+  "editor.lineHeight": 22,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "[markdown]": {        
+      "editor.quickSuggestions": true
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "window.newWindowDimensions": "maximized",
+  "window.zoomLevel": 0,
+  "npm.enableScriptExplorer": true,
+  "terminal.integrated.fontSize": 11,
+  "files.associations": {
+      "*.html": "html"
+  },
+  "[html]": {},
+  "todo-tree.defaultHighlight": {
+      "foreground": "green",
+      "type": "none"
+  },
+  "todo-tree.customHighlight": {
+      "TODO": {},
+      "FIXME": {}
+  }
+}
