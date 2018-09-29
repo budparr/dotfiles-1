@@ -76,6 +76,8 @@ these are modified to update the .profile changes for later versions
 [Sign your commits on GitHub with GPG](https://medium.com/@timmywil/sign-your-commits-on-github-with-gpg-566f07762a43)
 [https://gist.github.com/bmhatfield/cc21ec0a3a2df963bffa3c1f884b676b](https://gist.github.com/bmhatfield/cc21ec0a3a2df963bffa3c1f884b676b)
 
+update profile: https://github.com/robbyrussell/oh-my-zsh/issues/6106#issuecomment-309528254
+
 
 
 ## Original Author
