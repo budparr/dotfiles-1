@@ -28,7 +28,8 @@ set -- -f; source bootstrap.sh
 ```
 
 ### Use VSCode settings
-<!-- https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/ -->
+
+_https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/_
 
 ln -s /Users/budparr/vscode/settings.json /Users/budparr/Library/Application\ Support/Code/User/settings.json
 ln -s /Users/budparr/vscode/keybindings.json /Users/budparr/Library/Application\ Support/Code/User/keybindings.json
