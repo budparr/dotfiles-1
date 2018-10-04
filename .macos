@@ -210,6 +210,9 @@ defaults write com.apple.screencapture location -string "${HOME}/Desktop"
 #defaults write com.apple.screencapture type -string "JPG"
 defaults write com.apple.screencapture type JPG
 
+# Create a nice name with no spaces.
+# defaults write com.apple.screencapture name "screenshot"
+
 # Disable shadow in screenshots
 defaults write com.apple.screencapture disable-shadow -bool true
 
@@ -533,7 +536,7 @@ defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 # Disable Spotlight indexing for any volume that gets mounted and has not yet
 # been indexed before.
 # Use `sudo mdutil -i off "/Volumes/foo"` to stop indexing any volume.
-### sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Volumes"
+#sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Volumes"
 # Change indexing order and disable some search results
 # Yosemite-specific search results (remove them if you are using macOS 10.9 or older):
 # 	MENU_DEFINITION
@@ -565,12 +568,12 @@ defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 # 	'{"enabled" = 0;"name" = "MENU_EXPRESSION";}' \
 # 	'{"enabled" = 0;"name" = "MENU_WEBSEARCH";}' \
 # 	'{"enabled" = 0;"name" = "MENU_SPOTLIGHT_SUGGESTIONS";}'
-# # Load new settings before rebuilding the index
-# killall mds > /dev/null 2>&1
-# # Make sure indexing is enabled for the main volume
-# sudo mdutil -i on / > /dev/null
-# # Rebuild the index from scratch
-# sudo mdutil -E / > /dev/null
+# Load new settings before rebuilding the index
+#killall mds > /dev/null 2>&1
+# Make sure indexing is enabled for the main volume
+#sudo mdutil -i on / > /dev/null
+# Rebuild the index from scratch
+#sudo mdutil -E / > /dev/null
 
 ###############################################################################
 # Terminal & iTerm 2                                                          #
@@ -610,4 +613,4 @@ for app in "Activity Monitor" \
 	"iCal"; do
 	killall "${app}" &> /dev/null
 done
-echo "Done. Note that some of these changes require a logout/restart to take effect. Thanks!"
+echo "Done. Note that some of these changes require a logout/restart to take effect. Thanks, yall!"
