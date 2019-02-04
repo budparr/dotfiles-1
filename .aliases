@@ -15,6 +15,11 @@ alias dt="cd ~/Desktop"
 alias p="cd ~/Code/projects"
 alias jekylls="bundle exec jekyll serve -w"
 alias g="git"
+alias fetch="git fetch && git pull"
+alias y="yarn"
+alias nn="npm run"
+alias clone="git clone --recurse-submodules"
+alias cc="code ."
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
