@@ -60,3 +60,5 @@ if grep -q enable-ssh-support "$GNUPGCONFIG"; then
   unset SSH_AGENT_PID
   export SSH_AUTH_SOCK=$GPG_AGENT_SOCKET
 fi
+
+export GOPATH=$HOME/go
