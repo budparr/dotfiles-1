@@ -61,9 +61,3 @@ if grep -q enable-ssh-support "$GNUPGCONFIG"; then
   export SSH_AUTH_SOCK=$GPG_AGENT_SOCKET
 fi
 
-# Go development
-export GOPATH=$HOME/go
-export GOBIN=$GOPATH/bin
-export GOROOT="$(brew --prefix golang)/libexec"
-export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
-

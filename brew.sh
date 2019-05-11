@@ -38,7 +38,7 @@ brew install wget --with-iri
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
-brew install gpg-agent 
+# brew install gpg-agent 
 brew install pinentry-mac
 
 # Install more recent versions of some macOS tools.
