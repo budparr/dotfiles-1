@@ -78,8 +78,12 @@ these are modified to update the .profile changes for later versions
 https://medium.com/@timmywil/sign-your-commits-on-github-with-gpg-566f07762a43  
 update profile: https://github.com/robbyrussell/oh-my-zsh/issues/6106#issuecomment-309528254  
 
-https://sourabhbajaj.com/mac-setup/Git/README.html
 
+to save commits
+```
+$ echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
+$ killall gpg-agent
+```
 
 
 ## Original Author
