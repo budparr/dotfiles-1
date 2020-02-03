@@ -1,5 +1,9 @@
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
+#export PATH="$HOME/bin:$PATH";
+
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=${PATH}:$GOBIN
 
 # silence Mac notice because ZSH is the new default
 export BASH_SILENCE_DEPRECATION_WARNING=1
