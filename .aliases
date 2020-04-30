@@ -23,7 +23,7 @@ alias y="yarn"
 alias nn="npm run"
 alias clone="git clone --recurse-submodules"
 alias cc="code ."
-alias serve="python3 -m http.server --cgi 8080"
+alias serve="http-server"
 
 
 # Detect which `ls` flavor is in use
