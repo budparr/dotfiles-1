@@ -49,7 +49,7 @@ brew install screen
 
 # Install other useful binaries.
 brew install ack
-brew install git
+#brew install git
 brew install git-lfs
 brew install http-server
 brew install imagemagick --with-webp
